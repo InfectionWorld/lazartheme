@@ -1,9 +1,16 @@
 @import url("https://aushevahmad.github.io/awesome-css/modules/bartender.css");
+@import url("https://minidiscordthemes.github.io/Snippets/PrivacyScreen/main.css");
+@import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
+
 :root {
     --bartender-width: 4ch;  /* Width for displayed icon. Adjust depending on your needs [Default: 4ch] */
 }
 
-@import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
 :root {
     --prompt-text: "discord.gg/reydex"; /* replace --prompt-text with your desired text if you want */
+}
+
+:root {
+    --privacy-bg-image: var(--privacy-discord-icon);
+    --privacy-bg-color: var(--background-primary);
 }
